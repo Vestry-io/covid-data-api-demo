@@ -1,35 +1,13 @@
-# Cloud Builder Live - March 2022
+# COVID API - Demo
 
-In this episode of Cloud Builder Live we will be using the [Azure Container Apps](https://docs.microsoft.com/en-us/azure/container-apps/) (in preview) to deploy a microservice REST API to query Covid-19 statistics around the world and then continuous deploy the entire thing from a GitHub repository.  We will also be using [Azure Load Testing](https://docs.microsoft.com/en-us/azure/load-testing/overview-what-is-azure-load-testing) (also in preview) to test scaling of our microservice.
-
-![Azure Portal](images/main.jpg)
+This is a demo container app API.  This should not be used for production use.  It is just intended as a demo.
 
 ## Watch it Live
 
-This episode will air on April 12, 2022 at 6pm Eastern time.  It will be streamed on both [YouTube](https://www.youtube.com/watch?v=P1MzptEDmyc) and Twitch.  
+This API was leveraged in a few Cloud Builder Live episodes.  You can find them here:
 
-## Branches
-
-| Branch | Description |
-| -------- | ---------- |
-| *start* | This is the state of the repo at the beginning of the stream. This does not include the additional REST endpoint that is configured as well as the GitHub workflow file. |
-| *end* | This is the state of the repo at the end of the stream.  This includes everything.  <br><br><i>**Note:** You will need to configure the GitHub workflow on your own from Azure Container Apps.  This will add necessary permissions and secrets.</i>
-
-## Prerequisites
-
-To follow along with this stream, you will need the following to be installed:
-
-- Node.js ([download](https://nodejs.org/en/))
-- Azure Subscription ([signup](https://azure.microsoft.com/en-us/free/search/))
-- Azure CLI ([instructions](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli))
-- Docker ([install](https://www.docker.com/))
-- ThunderClient for VSCode ([install](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client))
-
-## Known Issues and Notes
-
-It is important to know that at the time of the stream both Azure Container Apps and Azure Load Testing are in preview.  This means you may run across issues including the following:
-
-- When preparing for this, I found that I had to manually edit the GitHub workflow to get it to trigger properly. I reported this in the following [issue](https://github.com/microsoft/azure-container-apps/issues/174).
+- [Cloud Builder Live - April 2022](https://www.youtube.com/watch?v=P1MzptEDmyc)  
+- [Cloud Builder Live - May 2022](https://www.youtube.com/watch?v=Zzw4-cxeMRk) 
 
 ## Data Notes
 

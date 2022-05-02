@@ -1,5 +1,5 @@
 {
-  "name": "apr2022",
+  "name": "covid-data-api-demo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,8 +7,8 @@
     "postinstall": "curl https://covid.ourworldindata.org/data/owid-covid-data.json --output data.json",
     "start": "node index.js",
     "docker:build": "docker build . -t covid-api",
-    "docker:run": "docker run -p 49000:8080 --name cbl-apr2022-demo -d covid-api",
-    "docker:kill": "docker kill cbl-apr2022-demo"
+    "docker:run": "docker run -p 49000:8080 --name covid-api-demo -d covid-api",
+    "docker:kill": "docker kill covid-api-demo"
   },
   "keywords": [],
   "author": "",
